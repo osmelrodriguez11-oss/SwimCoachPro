@@ -1,0 +1,31 @@
+/
+├── index.html
+├── coach.html
+├── athlete.html
+│
+├── data/
+│   └── athletes.json
+│
+├── js/
+│   ├── coach.js
+│   ├── athlete.js
+│   └── utils.js
+│
+└── css/
+    └── style.css
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Coach Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>🏊 Coach Dashboard</h1>
+
+<div id="athletes"></div>
+
+<script src="js/coach.js"></script>
+</body>
+</html>
